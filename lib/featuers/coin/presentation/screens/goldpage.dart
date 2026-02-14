@@ -19,6 +19,7 @@ class GoldPage extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
+          iconTheme: const IconThemeData(color: AppColors.goldcolor),
           title: const Text(
             "Gold Price",
             style: TextStyle(

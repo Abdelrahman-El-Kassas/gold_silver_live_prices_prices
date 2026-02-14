@@ -18,6 +18,7 @@ class SilverPage extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
+          iconTheme: const IconThemeData(color: AppColors.slivercolor),
           title: const Text(
             "Silver Price",
             style: TextStyle(
