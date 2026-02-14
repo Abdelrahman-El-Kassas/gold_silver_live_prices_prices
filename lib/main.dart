@@ -1,13 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:silver_gold_price/core/networking/dio.helper.dart';
+
 import 'package:silver_gold_price/core/routing/app_router.dart';
 
 import 'package:silver_gold_price/core/routing/routes.dart';
 
-Future<void> main() async {
-  await dotenv.load(fileName: ".env");
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await DioHelper.init();
+
   runApp(const MyApp());
 }
+
+// Future<void> main() async {
+//   await dotenv.load(fileName: ".env");
+//   runApp(const MyApp());
+// }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

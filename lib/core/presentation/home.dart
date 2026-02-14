@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:silver_gold_price/core/constants/app_colors.dart';
 import 'package:silver_gold_price/core/constants/app_strings.dart';
+import 'package:silver_gold_price/core/routing/routes.dart';
 import 'package:silver_gold_price/core/widgets/custombutton.dart';
 
 class Home extends StatelessWidget {
@@ -22,13 +23,20 @@ class Home extends StatelessWidget {
         children: [
           CustomButton(
             text: '${AppStrings.gold} Price',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, AppRoutes.goldScreen);
+            },
             color: AppColors.goldcolor,
           ),
 
           CustomButton(
             text: '${AppStrings.silver} Price',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(
+                context,AppRoutes.silverScreen
+             
+              );
+            },
             color: AppColors.slivercolor,
           ),
         ],

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:silver_gold_price/core/presentation/home.dart';
+import 'package:silver_gold_price/featuers/coin/presentation/screens/goldpage.dart';
+import 'package:silver_gold_price/featuers/coin/presentation/screens/silverpage.dart';
+
 import 'routes.dart';
 
 class AppRouter {
@@ -9,6 +12,19 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) {
             return Home();
+          },
+        );
+      case AppRoutes.goldScreen:
+        return MaterialPageRoute(
+          builder: (context) {
+            return GoldPage();
+          },
+        );
+
+      case AppRoutes.silverScreen:
+        return MaterialPageRoute(
+          builder: (context) {
+            return SilverPage();
           },
         );
 
