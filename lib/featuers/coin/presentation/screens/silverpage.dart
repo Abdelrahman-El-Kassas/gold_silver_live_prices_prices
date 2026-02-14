@@ -33,7 +33,7 @@ class SilverPage extends StatelessWidget {
             // 2. التحميل والحالة المبدئية
             if (state is CoinLoading || state is CoinInitial) {
               return const Center(
-                child: CircularProgressIndicator(color: AppColors.goldcolor),
+                child: CircularProgressIndicator(color: AppColors.slivercolor),
               );
             } else if (state is CoinError) {
               return Center(

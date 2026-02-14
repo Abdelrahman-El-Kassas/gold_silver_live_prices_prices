@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Gold & Silver Price",
-          style: TextStyle(fontWeight: FontWeight.w600, fontSize: 26),
+          style: TextStyle(fontWeight: FontWeight.w600, fontSize: 28),
         ),
         centerTitle: true,
         backgroundColor: Color.fromARGB(141, 17, 115, 206),
