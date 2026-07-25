@@ -186,7 +186,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 5. Open a Pull Request
 
 ---
-
-<p align="center">
-  Made with ❤️ using Flutter
-</p>
