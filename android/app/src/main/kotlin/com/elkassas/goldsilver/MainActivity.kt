@@ -1,4 +1,4 @@
-package com.example.silver_gold_price
+package com.elkassas.goldsilver
 
 import io.flutter.embedding.android.FlutterActivity
 

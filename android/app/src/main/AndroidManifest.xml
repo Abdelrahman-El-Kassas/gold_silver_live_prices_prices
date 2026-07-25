@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.silver_gold_price">
+    package="com.elkassas.goldsilver">
     
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:label="silver_gold_price"
+        android:label="Gold &amp; Silver Prices"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         
